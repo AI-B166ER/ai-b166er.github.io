@@ -2,8 +2,8 @@
 	max-width: 48px;
 }
 
-.imagens-slide{
-	max-width: 1920px !important;
+.img-slide{
+	width: 100%;
 }
 
 @media only screen and (max-width: 400px) {
