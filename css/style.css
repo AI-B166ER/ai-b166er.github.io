@@ -1,0 +1,76 @@
+body{
+	background-color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	/*
+	font-family: 'Fondamento', cursive;
+	font-family: 'Condiment', cursive;
+	*/
+}
+
+h1{
+	font-family: 'Condiment', cursive;
+}
+
+.navbar{
+	background-color: rgba(0,0,0,0.6) !important;
+}
+
+.logo{
+	width: 45px; 
+}
+
+@media only screen and (min-width: 500px){
+	.desktop-hide{
+		display: none !important; 
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+	.mobile-hide{ 
+		display: none !important; 
+	}
+
+	header{
+		padding-top: 55px !important;
+	}
+
+}
+
+.darker{
+	background-color: #fafafa;
+}
+
+.mt-6{
+	margin-top: 55px !important; 
+}
+
+.pt-6{
+	padding-top: 55px !important;
+}
+
+input:focus{
+	border:2px solid #dc3545 !important;
+	box-shadow: none !important; 
+	background-color: #fafafa !important;
+}
+
+select:focus{
+	border:2px solid #dc3545 !important;
+	box-shadow: none !important; 
+	background-color: #fafafa !important;
+}
+
+option:hover{
+	background-color:#dc3545 !important;
+}
+
+section{
+	padding-bottom: 20em;
+}
+
+#contato{
+	padding-bottom: 17em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Condiment|Fondamento');
