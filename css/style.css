@@ -1,10 +1,6 @@
 body{
 	background-color: black;
 	font-family: 'Source Sans Pro', sans-serif;
-	/*
-	font-family: 'Fondamento', cursive;
-	font-family: 'Condiment', cursive;
-	*/
 }
 
 h1{
@@ -31,7 +27,7 @@ h1{
 		display: none !important; 
 	}
 
-	header{
+	#top{
 		padding-top: 55px !important;
 	}
 
@@ -48,6 +44,11 @@ h1{
 .pt-6{
 	padding-top: 55px !important;
 }
+
+.pb-6{
+	padding-bottom: 55px !important;
+}
+
 
 input:focus{
 	border:2px solid #dc3545 !important;
@@ -70,7 +71,5 @@ section{
 }
 
 #contato{
-	padding-bottom: 17em;
+	padding-bottom: 14em;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Condiment|Fondamento');
